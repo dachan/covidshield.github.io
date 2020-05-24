@@ -112,9 +112,16 @@ li {
 
 .disclaimer {
   padding: var(--spacing);
-  font-size: 16px;
   background-color: #ebf5ff;
   border-radius: 10px;
+}
+
+.disclaimer p {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 @media all and (min-width: 900px) {
